@@ -30,7 +30,7 @@ alloy-primitives = { version = "1.5.7", features = ["map"] }
 alloy-provider = { version = "2.0.0-rc.0", default-features = false }
 alloy-rpc-types = { version = "2.0.0-rc.0", features = ["eth"] }
 
-tempo-revm = { git = "https://github.com/tempoxyz/tempo", branch = "alloy-2.0", default-features = false }
+tempo-revm = { git = "https://github.com/tempoxyz/tempo", rev = "68baccf2e13665b57cc8edbcd22aa8c7c46249c0", default-features = false }
 
 eyre = "0.6"
 futures = "0.3"
